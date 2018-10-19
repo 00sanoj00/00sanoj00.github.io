@@ -11,41 +11,34 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4181989594" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3955696754" id="pagesheet"/>
    </head>
  <body>
 
   <div class="gradient clearfix borderbox" id="page"><!-- column -->
-   <img class="colelem" id="u195-4" alt="SL Developer" src="images/u195-4.png?crc=346492595" data-image-width="897"/><!-- rasterized frame -->
-   <img class="colelem" id="u198-4" alt="By" src="images/u198-4.png?crc=3953780727" data-image-width="77"/><!-- rasterized frame -->
-   <img class="colelem" id="u203-4" alt="droidlanka" src="images/u203-4.png?crc=4263245783" data-image-width="393"/><!-- rasterized frame -->
-   <div class="clearfix colelem" id="pbuttonu206"><!-- group -->
-    <a class="nonblock nontext Button museBGSize rounded-corners grpelem" id="buttonu206" href="windows.html" data-visibility="changed" style="visibility:hidden"><!-- container box --></a>
-    <div class="Button rounded-corners clearfix grpelem" id="buttonu213" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-     <div class="clearfix grpelem" id="u214-4"><!-- content -->
-      <p>Lorem Ipsum</p>
-     </div>
+   <div class="clip_frame colelem" id="u371" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedCenter"><!-- image -->
+    <img class="block" id="u371_img" src="images/logo.png?crc=359755936" alt="" data-heightwidthratio="0.3164179104477612" data-image-width="670" data-image-height="212"/>
+   </div>
+   <div class="clearfix colelem" id="pu417"><!-- group -->
+    <div class="gradient rounded-corners clip_frame grpelem" id="u417"><!-- image -->
+     <img class="block" id="u417_img" src="images/facebook%20black-crop-u417.png?crc=3930161508" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
     </div>
-    <div class="Button rounded-corners clearfix grpelem" id="buttonu219" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-     <div class="clearfix grpelem" id="u220-4"><!-- content -->
-      <p>Lorem Ipsum</p>
-     </div>
+    <div class="gradient rounded-corners clip_frame grpelem" id="u409"><!-- image -->
+     <img class="block" id="u409_img" src="images/youtube%20black-crop-u409.png?crc=3914588940" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
     </div>
-    <div class="Button rounded-corners clearfix grpelem" id="buttonu225" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-     <div class="clearfix grpelem" id="u226-4"><!-- content -->
-      <p>Lorem Ipsum</p>
-     </div>
+    <div class="gradient rounded-corners clip_frame grpelem" id="u401"><!-- image -->
+     <img class="block" id="u401_img" src="images/twitter%20black-crop-u401.png?crc=389568953" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
+    </div>
+    <div class="gradient rounded-corners clip_frame grpelem" id="u393"><!-- image -->
+     <img class="block" id="u393_img" src="images/instagram%20black-crop-u393.png?crc=3799638470" alt="" data-heightwidthratio="1" data-image-width="50" data-image-height="50"/>
     </div>
    </div>
-  </div>
-  <div class="preload_images">
-   <img class="preload" src="images/logodeveloper.png?crc=7109943" alt=""/>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -58,7 +51,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */

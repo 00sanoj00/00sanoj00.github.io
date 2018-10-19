@@ -1,7 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.SLDeveloper.com" resolutions="1x" timestamp="1539962127915">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.SLDeveloper.com" resolutions="1x" timestamp="1539966470387">
+  <folder name="assets">
+    <file name="-mr--load-at-anchor.mulib" crc="513743969" seo="true" mt="1435490638000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4181989594" ref="index"/>
+    <file name="index.css" crc="3955696754" ref="index"/>
     <file name="windows.css" crc="143266762" ref="windows"/>
   </folder>
   <folder name="scripts">
@@ -9,19 +12,26 @@
     <file name="museutils.js" crc="340535759" ref="index:windows"/>
     <file name="whatinput.js" crc="86476730" ref="index:windows"/>
     <file name="museconfig.js" crc="4286661555" ref="index:windows"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
     <file name="require.js" crc="7928878" ref="index:windows"/>
     <file name="jquery.watch.js" crc="51536988" ref="windows"/>
   </folder>
   <folder name="images">
-    <file name="u195-4.png" crc="346492595" ref="index"/>
-    <file name="u198-4.png" crc="3953780727" ref="index"/>
-    <file name="u203-4.png" crc="4263245783" ref="index"/>
-    <file name="logodeveloper.png" crc="7109943" ref="index">
+    <file name="logo.png" crc="359755936" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+    </file>
+    <file name="youtube black-crop-u409.png" crc="3914588940" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="twitter black-crop-u401.png" crc="389568953" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="instagram black-crop-u393.png" crc="3799638470" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="facebook black-crop-u417.png" crc="3930161508" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="66773532" seo="true" mt="1539962072377" redirect="true"/>
+  <file name="index.html" crc="210080230" seo="true" mt="1539966459699" redirect="true"/>
   <file name="windows.html" crc="3999761031" seo="true" mt="1539962006579" redirect="false"/>
 </manifest>
