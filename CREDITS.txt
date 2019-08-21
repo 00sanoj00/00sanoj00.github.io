@@ -1,0 +1,32 @@
+
+  _____                _ _            
+ |  __ \              | | |           
+ | |__) |_ _ _ __ __ _| | | __ ___  __
+ |  ___/ _` | '__/ _` | | |/ _` \ \/ /
+ | |  | (_| | | | (_| | | | (_| |>  < 
+ |_|   \__,_|_|  \__,_|_|_|\__,_/_/\_\
+                                      
+______________________________________________________
+Credits:
+- Upscale (overcookedfish)
+- New images (overcookedfish)
+- Origional engine (Matthew Wagerfield)
+- Mobile engine (CSS3_)
+- Mobile engine configuration (overcookedfish)
+- XenHTML port (overcookedfish)
+- Wallpaper (overcookedfish)
+________________________________________________________
+
+
+         ___
+      .-*)) `*-.
+     /*  ((*   *'.
+    |   *))  *   *\
+    | *  ((*   *  /
+     \  *))  *  .'
+      '-.((*_.-'
+
+(literal easter egg lmao)
+
+Thank you to matthew wagerfield and CSS3_, could not have
+ done this without them.
