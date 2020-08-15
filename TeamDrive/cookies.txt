@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.mfoxx.workers.dev	TRUE	/	FALSE	1999999999	__cfduid	d569a26241d2b1ee4a49a723912b33f3f1597506978
+teamdrive.mfoxx.workers.dev	TRUE	/	FALSE	1999999999	SameSite	Lax
+
