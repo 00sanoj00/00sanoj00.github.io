@@ -1,0 +1,19 @@
+{
+    "routes": [
+        {
+            "src": "/api/document/(?<googleId>[^/]+)",
+            "methods": ["GET"],
+            "dest": "/api/document/get?googleId=$googleId"
+        },
+        {
+            "src": "/api/document/(?<googleId>[^/]+)/sheet/(?<sheetNumber>[^/]+)",
+            "methods": ["GET"],
+            "dest": "/api/document/sheet/get?googleId=$googleId&&sheetNumber=$sheetNumber"
+        },
+        {
+            "src": "/.*",
+            "status": 403,
+            "dest": "/api/not-found/message"
+        }
+    ]
+}
